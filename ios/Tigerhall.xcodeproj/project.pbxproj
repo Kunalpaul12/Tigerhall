@@ -11,11 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		434C483F104AEBF035DA96A5 /* libPods-Tigerhall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC23E7349E791983C04CB2F /* libPods-Tigerhall.a */; };
 		5F03B80B6E994FD9AD49057E /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ED219825CB04E0B9F61ED5C /* OpenSans-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8F0794F936E84F86951C816D /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5C2224E405B43378BB5B332 /* OpenSans-SemiBold.ttf */; };
-		BC52C676F36B0B769F9E49FA /* libPods-Tigerhall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407C35F9F43A972F79209212 /* libPods-Tigerhall.a */; };
-		D564CFF14257DFEBA2630E9D /* libPods-Tigerhall-TigerhallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AB4882093C7DD9EDBFB86F /* libPods-Tigerhall-TigerhallTests.a */; };
+		FCE88A8AD878D0BDA896765C /* libPods-Tigerhall-TigerhallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F071F3CBA894D9980E0B73BF /* libPods-Tigerhall-TigerhallTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +32,22 @@
 		00E356EE1AD99517003FC87E /* TigerhallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TigerhallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TigerhallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerhallTests.m; sourceTree = "<group>"; };
+		050094F502565E285B5CC9FF /* Pods-Tigerhall-TigerhallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall-TigerhallTests.release.xcconfig"; path = "Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EC23E7349E791983C04CB2F /* libPods-Tigerhall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tigerhall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8ECD3455BA0568CBF3C095 /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall-TigerhallTests.debug.xcconfig"; path = "Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Tigerhall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tigerhall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Tigerhall/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Tigerhall/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Tigerhall/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tigerhall/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tigerhall/main.m; sourceTree = "<group>"; };
-		39BF657591E02482B479A485 /* Pods-Tigerhall-TigerhallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall-TigerhallTests.release.xcconfig"; path = "Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests.release.xcconfig"; sourceTree = "<group>"; };
-		407C35F9F43A972F79209212 /* libPods-Tigerhall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tigerhall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44AB4882093C7DD9EDBFB86F /* libPods-Tigerhall-TigerhallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tigerhall-TigerhallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63075839C845D2294427E4BE /* Pods-Tigerhall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall.debug.xcconfig"; path = "Target Support Files/Pods-Tigerhall/Pods-Tigerhall.debug.xcconfig"; sourceTree = "<group>"; };
+		34685F97467F650E50037A26 /* Pods-Tigerhall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall.release.xcconfig"; path = "Target Support Files/Pods-Tigerhall/Pods-Tigerhall.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Tigerhall/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ED219825CB04E0B9F61ED5C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ABD99FB46C0D4814B11FC86B /* Pods-Tigerhall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall.debug.xcconfig"; path = "Target Support Files/Pods-Tigerhall/Pods-Tigerhall.debug.xcconfig"; sourceTree = "<group>"; };
 		C5C2224E405B43378BB5B332 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F1D710D528B8DF4E2DB4D5F4 /* Pods-Tigerhall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall.release.xcconfig"; path = "Target Support Files/Pods-Tigerhall/Pods-Tigerhall.release.xcconfig"; sourceTree = "<group>"; };
-		F5A549EA5A1A4732CA30434C /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tigerhall-TigerhallTests.debug.xcconfig"; path = "Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F071F3CBA894D9980E0B73BF /* libPods-Tigerhall-TigerhallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tigerhall-TigerhallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D564CFF14257DFEBA2630E9D /* libPods-Tigerhall-TigerhallTests.a in Frameworks */,
+				FCE88A8AD878D0BDA896765C /* libPods-Tigerhall-TigerhallTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC52C676F36B0B769F9E49FA /* libPods-Tigerhall.a in Frameworks */,
+				434C483F104AEBF035DA96A5 /* libPods-Tigerhall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				407C35F9F43A972F79209212 /* libPods-Tigerhall.a */,
-				44AB4882093C7DD9EDBFB86F /* libPods-Tigerhall-TigerhallTests.a */,
+				0EC23E7349E791983C04CB2F /* libPods-Tigerhall.a */,
+				F071F3CBA894D9980E0B73BF /* libPods-Tigerhall-TigerhallTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,10 +155,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63075839C845D2294427E4BE /* Pods-Tigerhall.debug.xcconfig */,
-				F1D710D528B8DF4E2DB4D5F4 /* Pods-Tigerhall.release.xcconfig */,
-				F5A549EA5A1A4732CA30434C /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */,
-				39BF657591E02482B479A485 /* Pods-Tigerhall-TigerhallTests.release.xcconfig */,
+				ABD99FB46C0D4814B11FC86B /* Pods-Tigerhall.debug.xcconfig */,
+				34685F97467F650E50037A26 /* Pods-Tigerhall.release.xcconfig */,
+				0F8ECD3455BA0568CBF3C095 /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */,
+				050094F502565E285B5CC9FF /* Pods-Tigerhall-TigerhallTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -170,12 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TigerhallTests" */;
 			buildPhases = (
-				459A78345EACC7CBFA440CD8 /* [CP] Check Pods Manifest.lock */,
+				A8E916F5093159A003B099AF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				1834A8E7D7CAF8591EBF0A9C /* [CP] Embed Pods Frameworks */,
-				F3C5E48A05B20E2C2E1824AA /* [CP] Copy Pods Resources */,
+				23D65B86E52BFDAF32E46D7F /* [CP] Embed Pods Frameworks */,
+				40B8BBAEF54252F7DE39300B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,14 +191,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Tigerhall" */;
 			buildPhases = (
-				CE921382DFD358ED199390AF /* [CP] Check Pods Manifest.lock */,
+				BEAE8AC5B45D38DFEC5B3B3F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E90D6978B65E8B59722F02C8 /* [CP] Embed Pods Frameworks */,
-				3BECF6255EA33B34F83C807A /* [CP] Copy Pods Resources */,
+				213FEDDFE57E0F6AABFB6F8D /* [CP] Embed Pods Frameworks */,
+				3EF7580AA85063123EA8D1BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +283,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		1834A8E7D7CAF8591EBF0A9C /* [CP] Embed Pods Frameworks */ = {
+		213FEDDFE57E0F6AABFB6F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D65B86E52BFDAF32E46D7F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,7 +317,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3BECF6255EA33B34F83C807A /* [CP] Copy Pods Resources */ = {
+		3EF7580AA85063123EA8D1BF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +334,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		459A78345EACC7CBFA440CD8 /* [CP] Check Pods Manifest.lock */ = {
+		40B8BBAEF54252F7DE39300B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E916F5093159A003B099AF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +373,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CE921382DFD358ED199390AF /* [CP] Check Pods Manifest.lock */ = {
+		BEAE8AC5B45D38DFEC5B3B3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,40 +393,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E90D6978B65E8B59722F02C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall/Pods-Tigerhall-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3C5E48A05B20E2C2E1824AA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tigerhall-TigerhallTests/Pods-Tigerhall-TigerhallTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -447,7 +447,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A549EA5A1A4732CA30434C /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */;
+			baseConfigurationReference = 0F8ECD3455BA0568CBF3C095 /* Pods-Tigerhall-TigerhallTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -474,7 +474,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39BF657591E02482B479A485 /* Pods-Tigerhall-TigerhallTests.release.xcconfig */;
+			baseConfigurationReference = 050094F502565E285B5CC9FF /* Pods-Tigerhall-TigerhallTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -498,7 +498,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63075839C845D2294427E4BE /* Pods-Tigerhall.debug.xcconfig */;
+			baseConfigurationReference = ABD99FB46C0D4814B11FC86B /* Pods-Tigerhall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -525,7 +525,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1D710D528B8DF4E2DB4D5F4 /* Pods-Tigerhall.release.xcconfig */;
+			baseConfigurationReference = 34685F97467F650E50037A26 /* Pods-Tigerhall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
